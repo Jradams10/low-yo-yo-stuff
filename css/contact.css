@@ -1,0 +1,91 @@
+.contact-header {
+	line-height: 5rem;
+}
+
+.contact {
+	background-color:#999f3b;
+	text-align: center;
+	padding: 5rem;
+	margin:0 auto;
+
+}
+
+input, textarea {
+	border: 3px #fff solid;
+	background-color: #eee;
+	width:80%;
+	margin:1.8rem 0 0 0;
+	padding:1rem;
+	color:#404040;
+}
+
+textarea {
+	min-height: 100px;
+}
+
+
+input[name="first-name"] {
+	width:38%;
+	padding:1rem;
+	color:#404040;
+	margin-right: 2%;
+}
+
+input[name="last-name"] {
+	width:38%;
+	padding:1rem;
+	color:#404040;
+	margin-left: 2%;
+}
+
+
+
+.send {
+	background-color:#999f3b;
+}
+
+
+
+
+/*---------------------------*/
+/*---------------------------*/
+/*----SCREEN SIZE STYLING----*/
+/*---------------------------*/
+/*---------------------------*/
+
+
+@media (max-width: 625px) {
+	input[name="first-name"] {
+		width:80%;
+		margin-right: 0%;
+	}
+
+	input[name="last-name"] {
+		width:80%;
+		margin-left: 0%;
+	}
+}
+
+
+@media (min-width: 891px) {
+	textarea {
+		min-height: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

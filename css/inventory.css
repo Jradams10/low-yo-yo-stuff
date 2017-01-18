@@ -1,0 +1,108 @@
+.white {
+	color: #fff;
+}
+
+/*div.covers {
+	margin: 3rem auto;
+	padding:1.5rem;
+}*/
+
+.inventroy>h1 {
+	text-align: center;
+}
+.inventory>h1:hover {
+	color:#404040;
+}
+
+.hide-covers, .hide-headline {
+	display:none;
+}
+
+.the-list {
+	font-size: 1rem;
+	font-weight: 400;
+	overflow:auto;
+
+}
+
+#cd {
+	background-color: #6bbec4;
+
+}
+
+#cassets {
+	background-color: #d56827;
+
+}
+
+.col-right {
+	float:right;
+	margin:1rem 2rem;
+	width:40%;
+
+}
+
+.col-left {
+	float:left;
+	width:40%;
+	margin:1rem 2rem;
+}
+
+
+
+.title {
+	font-weight: 800;
+	font-style: italic;
+}
+
+
+/*---------------------------*/
+/*---------------------------*/
+/*----SCREEN SIZE STYLING----*/
+/*---------------------------*/
+/*---------------------------*/
+
+@media (max-width:625px) {
+	section.inventory {
+		padding:3rem;
+	}
+
+	.inventory>h1 {
+		padding-bottom: 0px;
+	}
+
+	.hide-covers, .hide-headline {
+		display: none;
+	}
+
+	.col-left, .col-right {
+		float:none;
+		text-align: center;
+		width:auto;
+	}
+}
+
+
+@media (min-width:891px) {
+	section.inventory{
+		padding:6rem;
+	}
+
+	.inventory>h1 {
+	}
+
+	div.covers {
+		padding-top: 2rem;
+	}
+
+	.hide-covers {
+		display:initial;
+		width:22%;
+	}
+}
+
+
+
+
+
+
